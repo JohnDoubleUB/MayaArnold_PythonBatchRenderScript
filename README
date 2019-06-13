@@ -1,0 +1,12 @@
+This is a plugin for use within Autodesk Maya!
+
+While there are already methods of batch rendering with Arnold Renderer using multiple cameras in a scene, they require a standalone Arnold license which isn't always a possiblity. 
+
+This script was designed to make use of the Arnold built into Maya, alowing a user to render an entire sequence including multiple cameras, with a single script.
+
+The script can also pull information from the sequencer inside maya, allow for custom alterations of the frame ranges and even allows the frames to be divided into batches so that renders can be done on multiple pcs at once at different ranges (I.E. PC #1 Frames: 0-100, PC #2 Frames: 101-200).
+
+To make the task of maintaining specific frame information, instances of this information can be exported and reimported into and out of the UI.
+
+Here is a link to a demonstration of the tool in use inside of Autodesk Maya
+https://vimeo.com/266062328
