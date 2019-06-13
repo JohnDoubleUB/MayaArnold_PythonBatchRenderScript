@@ -6,6 +6,9 @@ ArnoldBatchRenderClass.py - Contains the main class responsible for all the rend
 
 ArnoldBatchRenderUI.py - Contains the UI used to allow more straightforward user interaction, also contains a structure for holding instances of the class in case multiple profiles are needed.
 
+Here is a link to a demonstration of the tool in use inside of Autodesk Maya
+https://vimeo.com/266062328
+
 ----------------------------------------------------------------------
 
 While there are already methods of batch rendering with Arnold Renderer using multiple cameras in a scene, they require a standalone Arnold license which isn't always a possiblity. 
@@ -16,5 +19,3 @@ The script can also pull information from the sequencer inside maya, allow for c
 
 To make the task of maintaining specific frame information, instances of this information can be exported and reimported into and out of the UI.
 
-Here is a link to a demonstration of the tool in use inside of Autodesk Maya
-https://vimeo.com/266062328
