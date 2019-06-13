@@ -1,5 +1,13 @@
 This is a plugin for use within Autodesk Maya!
 
+Files in this project:
+
+ArnoldBatchRenderClass.py - Contains the main class responsible for all the rendering functionality, pulling information, etc.
+
+ArnoldBatchRenderUI.py - Contains the UI used to allow more straightforward user interaction, also contains a structure for holding instances of the class in case multiple profiles are needed.
+
+----------------------------------------------------------------------
+
 While there are already methods of batch rendering with Arnold Renderer using multiple cameras in a scene, they require a standalone Arnold license which isn't always a possiblity. 
 
 This script was designed to make use of the Arnold built into Maya, alowing a user to render an entire sequence including multiple cameras, with a single script.
