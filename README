@@ -6,7 +6,7 @@ ArnoldBatchRenderClass.py - Contains the main class responsible for all the rend
 
 ArnoldBatchRenderUI.py - Contains the UI used to allow more straightforward user interaction, also contains a structure for holding instances of the class in case multiple profiles are needed.
 
-Here is a link to a demonstration of the tool in use inside of Autodesk Maya
+Here is a link to a demonstration of the tool in use inside of Autodesk Maya:
 https://vimeo.com/266062328
 
 ----------------------------------------------------------------------
